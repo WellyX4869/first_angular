@@ -14,13 +14,18 @@ export class AppComponent  {
   },{
     nama : 'Buah jeruk',
     harga : 15000
-  }]
+  }];
 
-  itemArr = [1,2,3,4]
+  itemArr = [1,2,3,4];
 
-  show : boolean = true
+  show : boolean = false;
 
   user = {
     nama : ''
+  };
+
+  Pesan = '';
+  KlikButton(){
+    this.Pesan = 'Tombol di tekan';
   }
 }
